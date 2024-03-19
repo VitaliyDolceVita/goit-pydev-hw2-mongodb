@@ -16,7 +16,7 @@ except Exception as e:
 
 
 
-db = client["cat_database"]
+db = client["test"]
 collection = db["cats"]
 
 def read_all_cats():
